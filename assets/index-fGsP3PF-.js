@@ -1,0 +1,7 @@
+import{_ as p,r as u,t as f,d as o,a as n,o as e,c as l,b as s,e as _,f as a}from"./index-Iczi070g.js";const y={name:"",props:{tabIndex:{type:Number,default:0},msg:{type:String,default:""}},setup(c){const r=u({});return{...f(r)}},components:{Home:o(()=>a(()=>import("./TabHome-N47CP3H8.js"),__vite__mapDeps([0,1,2,3,4]))),List:o(()=>a(()=>import("./TabProductList-NU8x6lLN.js"),__vite__mapDeps([5,1,2,3,6]))),My:o(()=>a(()=>import("./TabMy-6INi0cFJ.js"),__vite__mapDeps([7,2,3,8,9])))}},x={class:"page-home"};function v(c,r,t,E,I,b){const m=n("Home"),d=n("List"),i=n("My");return e(),l("div",x,[t.tabIndex==0?(e(),s(m,{key:0})):_("",!0),t.tabIndex==1?(e(),s(d,{key:1})):_("",!0),t.tabIndex==2?(e(),s(i,{key:2})):_("",!0)])}const L=p(y,[["render",v]]);export{L as default};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/TabHome-N47CP3H8.js","assets/2-MOz3lq8v.js","assets/index-Iczi070g.js","assets/index-EZ6jaAeR.css","assets/TabHome-0QOQCeH_.css","assets/TabProductList-NU8x6lLN.js","assets/TabProductList-3fV5f5wR.css","assets/TabMy-6INi0cFJ.js","assets/TabMy-ucTngXiZ.css","assets/index-Ol3A8Y5o.css"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
